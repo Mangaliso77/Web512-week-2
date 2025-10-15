@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #0a0f1f;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #00ffcc;
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 1rem;
+    color: #bbb;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1b263b, #0d1b2a);
+    border-bottom: 2px solid #00ffcc;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.about-us img {
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.about-details {
+    max-width: 600px;
+}
+
+/* Strategies Section */
+#strategies {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #111827;
+}
+
+.card {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Quarterly Theory */
+#quarterly {
+    padding: 3rem 2rem;
+}
+
+#quarterly ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quarterly ul li {
+    margin: 0.5rem 0;
+    background: #1b263b;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+/* Resources */
+#resources {
+    padding: 3rem 2rem;
+    background: #111827;
+    text-align: center;
+}
+
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources li {
+    margin: 0.8rem 0;
+}
+
+/* Contact */
+.contact {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #0d1b2a;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
